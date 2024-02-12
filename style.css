@@ -1,0 +1,73 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+header {
+  background-color: #db34ba;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.profile,
+.friends,
+.contact,
+.linkedin {
+  background-color: #fff;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-image,
+.friends-image {
+  text-align: center;
+}
+
+.profile-image img,
+.friends-image img {
+  width: 210px;
+  height: auto;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.profile-info h2,
+.friends h2,
+.contact h2,
+.linkedin h2 {
+  color: #db34ba;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.profile-info p,
+.contact p {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.linkedin-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #db34ba;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.linkedin-btn:hover {
+  background-color: #ae237b;
+}
